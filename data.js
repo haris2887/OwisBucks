@@ -11,6 +11,7 @@ const attendees = [
   { name: "Harris", nights: 2 },
   { name: "Jamal",  nights: 2 },
   { name: "Usamah", nights: 2 },
+  { name: "Omair",  nights: 2 },
   { name: "Omar",   nights: 1 },
   { name: "Haseeb", nights: 1, note: "Arriving Saturday" },
   { name: "Fahad",  nights: 1, note: "Driving back Saturday night" },
@@ -63,6 +64,7 @@ const tasks = [
   { id: "m-omar",   category: "munchies", description: "Munchies — chips", assignedTo: ["Omar"], day: "Any" },
   { id: "m-haseeb", category: "munchies", description: "Munchies — chocolate", assignedTo: ["Haseeb"], day: "Any" },
   { id: "m-fahad",  category: "munchies", description: "Munchies — lollies/candy", assignedTo: ["Fahad"], day: "Any" },
+  { id: "m-omair",  category: "munchies", description: "Munchies — chips", assignedTo: ["Omair"], day: "Any" },
 
   // Drinks
   { id: "drinks-1", category: "drinks", description: "Coke cans & water bottles", assignedTo: ["Usamah"], day: "Any" },
@@ -74,8 +76,8 @@ const tasks = [
   { id: "games-3a", category: "gear", description: "Xbox #1 + 3 controllers", assignedTo: ["Harris"], day: "Any" },
   { id: "games-3b", category: "gear", description: "Xbox #2 + 3 controllers", assignedTo: ["Usamah"], day: "Any" },
   { id: "games-3c", category: "gear", description: "2 spare Xbox controllers", assignedTo: ["Ali"], day: "Any" },
-  { id: "games-4", category: "gear", description: "Projector + screen (night before/Friday night)", assignedTo: ["Harris"], day: "Friday" },
-  { id: "games-5", category: "gear", description: "Speakers & aux cable", assignedTo: ["Fahad"], day: "Any" },
+  { id: "games-4", category: "gear", description: "Projector + screen (night before/Friday night)", assignedTo: ["Omair"], day: "Friday" },
+  { id: "games-5", category: "gear", description: "Speakers & aux cable", assignedTo: ["Omair"], day: "Any" },
   { id: "esky-1", category: "drinks", description: "Esky & ice, plus drinks (Holsten, Coke, etc)", assignedTo: ["Ks"], day: "Any" },
 
   // Cricket / outdoor gear
