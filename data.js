@@ -32,7 +32,7 @@ const itinerary = [
     items: [
       { time: "Morning", title: "Breakfast", detail: "Eggs, croissants, coffee runs" },
       { time: "Midday", title: "Activities", detail: "Cricket, footy/soccer, pool" },
-      { time: "Lunch", title: "Group Lunch", detail: "" },
+      { time: "Lunch", title: "Group Lunch", detail: "Might just be Friday night's leftovers — Sulai & Haseeb to have a backup plan" },
       { time: "Afternoon", title: "Haseeb arrives", detail: "" },
       { time: "Evening", title: "Fahad heads off", detail: "Driving back Saturday night" },
       { time: "Dinner", title: "Group Dinner", detail: "Pizza 🍕" },
@@ -94,7 +94,7 @@ const tasks = [
   { id: "sat-brekky-3", category: "other", description: "Tissues & serviettes", assignedTo: ["Jamal"], day: "Saturday" },
 
   // Saturday lunch
-  { id: "sat-lunch", category: "meal", description: "Saturday lunch", assignedTo: ["Sulai", "Haseeb"], day: "Saturday" },
+  { id: "sat-lunch", category: "meal", description: "Saturday lunch — plan for a backup, might just be Friday night's leftovers", assignedTo: ["Sulai", "Haseeb"], day: "Saturday" },
 
   // Saturday dinner
   { id: "sat-dinner", category: "meal", description: "Saturday dinner — Pizza order", assignedTo: ["Usamah", "Immi"], day: "Saturday" },
