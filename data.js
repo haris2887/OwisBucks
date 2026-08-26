@@ -86,7 +86,7 @@ const tasks = [
   { id: "gear-3", category: "gear", description: "Footy / soccer ball", assignedTo: ["Immi"], day: "Any" },
 
   // Friday dinner
-  { id: "friday-dinner", category: "meal", description: "Friday dinner — Biryani (order & pickup)", assignedTo: ["Kash", "Ks", "Harris"], day: "Friday" },
+  { id: "friday-dinner", category: "meal", description: "Friday dinner — Biryani (order & pickup)", assignedTo: ["Harris"], day: "Friday" },
 
   // Saturday breakfast
   { id: "sat-brekky-1", category: "meal", description: "Saturday breakfast — eggs, milk, croissants, coffee run", assignedTo: ["Fahad", "Jamal"], day: "Saturday" },
