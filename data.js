@@ -86,11 +86,11 @@ const tasks = [
   { id: "gear-3", category: "gear", description: "Footy / soccer ball", assignedTo: ["Immi"], day: "Any" },
 
   // Friday dinner
-  { id: "friday-dinner", category: "meal", description: "Friday dinner — Biryani (order & pickup)", assignedTo: ["Kash", "Ks"], day: "Friday" },
+  { id: "friday-dinner", category: "meal", description: "Friday dinner — Biryani (order & pickup)", assignedTo: ["Kash", "Ks", "Harris"], day: "Friday" },
 
   // Saturday breakfast
-  { id: "sat-brekky-1", category: "meal", description: "Saturday breakfast — eggs, milk, croissants, coffee run", assignedTo: ["Harris", "Jamal"], day: "Saturday" },
-  { id: "sat-brekky-2", category: "other", description: "Plastic cups & plates", assignedTo: ["Harris"], day: "Saturday" },
+  { id: "sat-brekky-1", category: "meal", description: "Saturday breakfast — eggs, milk, croissants, coffee run", assignedTo: ["Fahad", "Jamal"], day: "Saturday" },
+  { id: "sat-brekky-2", category: "other", description: "Plastic cups & plates", assignedTo: ["Ks"], day: "Saturday" },
   { id: "sat-brekky-3", category: "other", description: "Tissues & serviettes", assignedTo: ["Jamal"], day: "Saturday" },
 
   // Saturday lunch
