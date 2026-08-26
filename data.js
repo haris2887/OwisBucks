@@ -71,7 +71,7 @@ const tasks = [
   { id: "drinks-2", category: "drinks", description: "Extra water bottles", assignedTo: ["Omar"], day: "Any" },
 
   // Games / entertainment / gear
-  { id: "games-1", category: "games", description: "Board games", assignedTo: ["Kash"], day: "Any" },
+  { id: "games-1", category: "games", description: "Board games, poker set & other card games", assignedTo: ["Kash"], day: "Any" },
   { id: "games-2", category: "games", description: "Extra board games & deck of cards", assignedTo: ["Immi"], day: "Any" },
   { id: "games-3a", category: "gear", description: "Xbox #1 + 3 controllers", assignedTo: ["Harris"], day: "Any" },
   { id: "games-3b", category: "gear", description: "Xbox #2 + 3 controllers", assignedTo: ["Usamah"], day: "Any" },
