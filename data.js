@@ -58,7 +58,7 @@ const tasks = [
   { id: "m-ali",    category: "munchies", description: "Munchies — chips", assignedTo: ["Ali"], day: "Any" },
   { id: "m-sulai",  category: "munchies", description: "Munchies — chocolate", assignedTo: ["Sulai"], day: "Any" },
   { id: "m-immi",   category: "munchies", description: "Munchies — lollies/candy", assignedTo: ["Immi"], day: "Any" },
-  { id: "m-harris", category: "munchies", description: "Munchies — chips", assignedTo: ["Harris"], day: "Any" },
+  { id: "m-harris", category: "munchies", description: "Munchies — chips", assignedTo: ["Kash"], day: "Any" },
   { id: "m-jamal",  category: "munchies", description: "Munchies — chocolate", assignedTo: ["Jamal"], day: "Any" },
   { id: "m-usamah", category: "munchies", description: "Munchies — lollies/candy", assignedTo: ["Usamah"], day: "Any" },
   { id: "m-omar",   category: "munchies", description: "Munchies — chips", assignedTo: ["Omar"], day: "Any" },
