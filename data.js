@@ -88,6 +88,7 @@ const tasks = [
   { id: "games-4", category: "gear", description: "Projector + screen (night before/Friday night)", assignedTo: ["Omair"], day: "Friday" },
   { id: "games-5", category: "gear", description: "Speakers & aux cable", assignedTo: ["Omair"], day: "Any" },
   { id: "games-6", category: "games", description: "Shortlist of highly demanded movies", assignedTo: ["Owais"], day: "Any" },
+  { id: "games-7", category: "gear", description: "Backup Projector Screen Cloth", assignedTo: ["Harris"], day: "Any" },
   { id: "esky-1", category: "drinks", description: "Esky & ice, plus drinks (Holsten, Coke, etc)", assignedTo: ["Khurram"], day: "Any" },
 
   // Cricket / outdoor gear
