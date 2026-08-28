@@ -110,7 +110,7 @@ const tasks = [
   { id: "sat-dinner", category: "meal", description: "Saturday dinner — Pizza order", assignedTo: ["Usamah", "Immi"], day: "Saturday" },
 
   // Sunday breakfast
-  { id: "sun-brekky", category: "meal", description: "Sunday breakfast", assignedTo: ["Omar", "Harris"], day: "Sunday" },
+  { id: "sun-brekky", category: "meal", description: "Sunday breakfast", assignedTo: ["Omar", "Omair"], day: "Sunday" },
 
   // Misc / Fahad's stuff
   { id: "fire-1", category: "other", description: "Firewood & firestarters", assignedTo: ["Fahad"], day: "Any" },
