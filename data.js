@@ -115,6 +115,7 @@ const tasks = [
 
   // Salad
   { id: "salad-1", category: "meal", description: "Salad + Desserts for Chai", assignedTo: ["Kash", "Khurram"], day: "Any" },
+  { id: "naan-1", category: "meal", description: "Pickup Naan From Dandi", assignedTo: ["Khurram"], day: "Any" },
 
   // Misc / Fahad's stuff
   { id: "fire-1", category: "other", description: "Firewood & firestarters", assignedTo: ["Fahad"], day: "Any" },
