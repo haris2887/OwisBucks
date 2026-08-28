@@ -27,6 +27,8 @@
   --cat-games-soft: #F5F3FF;
   --cat-gear: #4F46E5;
   --cat-gear-soft: #EEF2FF;
+  --cat-personal: #0D9488;
+  --cat-personal-soft: #F0FDFA;
   --cat-other: #475569;
   --cat-other-soft: #F1F5F9;
 
@@ -66,6 +68,8 @@
   --cat-games-soft: rgba(167, 139, 250, 0.12);
   --cat-gear: #818CF8;
   --cat-gear-soft: rgba(129, 140, 248, 0.12);
+  --cat-personal: #2DD4BF;
+  --cat-personal-soft: rgba(45, 212, 191, 0.12);
   --cat-other: #94A3B8;
   --cat-other-soft: rgba(148, 163, 184, 0.12);
 
@@ -608,6 +612,7 @@ main {
 .badge-meal     { color: var(--cat-meal);     background: var(--cat-meal-soft); }
 .badge-games    { color: var(--cat-games);    background: var(--cat-games-soft); }
 .badge-gear     { color: var(--cat-gear);     background: var(--cat-gear-soft); }
+.badge-personal { color: var(--cat-personal); background: var(--cat-personal-soft); }
 .badge-other    { color: var(--cat-other);    background: var(--cat-other-soft); }
 
 .task-desc {

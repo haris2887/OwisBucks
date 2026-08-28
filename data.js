@@ -48,9 +48,18 @@ const itinerary = [
   },
 ];
 
-// category: "munchies" | "drinks" | "meal" | "games" | "gear" | "other"
+// category: "munchies" | "drinks" | "meal" | "games" | "gear" | "personal" | "other"
 // day: "Friday" | "Saturday" | "Sunday" | "Any"
 const tasks = [
+  // Personal — everyone brings their own
+  ...attendees.map(a => ({
+    id: `towel-${a.name.toLowerCase()}`,
+    category: "personal",
+    description: "Your own towel — for swimming etc.",
+    assignedTo: [a.name],
+    day: "Any",
+  })),
+
   // Munchies — everyone brings something
   { id: "m-owais",  category: "munchies", description: "Munchies — chips", assignedTo: ["Haseeb"], day: "Any" },
   { id: "m-kash",   category: "munchies", description: "Munchies — chocolate", assignedTo: ["Kash"], day: "Any" },

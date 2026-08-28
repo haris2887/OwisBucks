@@ -4,6 +4,7 @@ const CATEGORY_LABEL = {
   meal: "Meal",
   games: "Games",
   gear: "Gear",
+  personal: "Personal",
   other: "Other",
 };
 
