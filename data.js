@@ -12,6 +12,7 @@ const attendees = [
   { name: "Jamal",  nights: 2 },
   { name: "Usamah", nights: 2 },
   { name: "Omair",  nights: 2 },
+  { name: "Yusi",   nights: 2 },
   { name: "Omar",   nights: 1 },
   { name: "Haseeb", nights: 1, note: "Arriving Saturday" },
   { name: "Fahad",  nights: 1, note: "Driving back Saturday night" },
@@ -115,7 +116,7 @@ const tasks = [
 
   // Salad
   { id: "salad-1", category: "meal", description: "Salad + Desserts for Chai", assignedTo: ["Kash", "Khurram"], day: "Any" },
-  { id: "naan-1", category: "meal", description: "Pickup Naan From Dandi", assignedTo: ["Khurram"], day: "Any" },
+  { id: "naan-1", category: "meal", description: "Pickup Naan From Dandi", assignedTo: ["Yusi"], day: "Any" },
 
   // Misc / Fahad's stuff
   { id: "fire-1", category: "other", description: "Firewood & firestarters", assignedTo: ["Fahad"], day: "Any" },
