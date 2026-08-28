@@ -4,7 +4,7 @@
 const attendees = [
   { name: "Owais",  nights: 2, note: "The Bucks!" },
   { name: "Kash",   nights: 2 },
-  { name: "Ks",     nights: 2 },
+  { name: "Khurram", nights: 2 },
   { name: "Ali",    nights: 2 },
   { name: "Sulai",  nights: 2 },
   { name: "Immi",   nights: 2 },
@@ -63,7 +63,7 @@ const tasks = [
   // Munchies — everyone brings something
   { id: "m-owais",  category: "munchies", description: "Munchies — chips", assignedTo: ["Haseeb"], day: "Any" },
   { id: "m-kash",   category: "munchies", description: "Munchies — chocolate", assignedTo: ["Kash"], day: "Any" },
-  { id: "m-ks",     category: "munchies", description: "Munchies — lollies/candy", assignedTo: ["Ks"], day: "Any" },
+  { id: "m-ks",     category: "munchies", description: "Munchies — lollies/candy", assignedTo: ["Khurram"], day: "Any" },
   { id: "m-ali",    category: "munchies", description: "Munchies — chips", assignedTo: ["Ali"], day: "Any" },
   { id: "m-sulai",  category: "munchies", description: "Munchies — chocolate", assignedTo: ["Sulai"], day: "Any" },
   { id: "m-immi",   category: "munchies", description: "Munchies — lollies/candy", assignedTo: ["Immi"], day: "Any" },
@@ -87,7 +87,7 @@ const tasks = [
   { id: "games-3c", category: "gear", description: "2 spare Xbox controllers", assignedTo: ["Ali"], day: "Any" },
   { id: "games-4", category: "gear", description: "Projector + screen (night before/Friday night)", assignedTo: ["Omair"], day: "Friday" },
   { id: "games-5", category: "gear", description: "Speakers & aux cable", assignedTo: ["Omair"], day: "Any" },
-  { id: "esky-1", category: "drinks", description: "Esky & ice, plus drinks (Holsten, Coke, etc)", assignedTo: ["Ks"], day: "Any" },
+  { id: "esky-1", category: "drinks", description: "Esky & ice, plus drinks (Holsten, Coke, etc)", assignedTo: ["Khurram"], day: "Any" },
 
   // Cricket / outdoor gear
   { id: "gear-1", category: "gear", description: "Cricket bat, stumps, tape", assignedTo: ["Ali", "Sulai"], day: "Any" },
@@ -99,7 +99,7 @@ const tasks = [
 
   // Saturday breakfast
   { id: "sat-brekky-1", category: "meal", description: "Saturday breakfast — eggs, milk, croissants, coffee run", assignedTo: ["Fahad", "Jamal"], day: "Saturday" },
-  { id: "sat-brekky-2", category: "other", description: "Plastic cups & plates", assignedTo: ["Ks"], day: "Saturday" },
+  { id: "sat-brekky-2", category: "other", description: "Plastic cups & plates", assignedTo: ["Khurram"], day: "Saturday" },
   { id: "sat-brekky-3", category: "other", description: "Tissues & serviettes", assignedTo: ["Jamal"], day: "Saturday" },
 
   // Saturday lunch
