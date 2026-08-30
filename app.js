@@ -27,12 +27,23 @@ function setChecked(id, val) {
   else localStorage.removeItem(STORAGE_PREFIX + id);
 }
 
+const AVATAR_GRADIENT_COUNT = 8;
+
 function initials(name) {
   return name.slice(0, 2).toUpperCase();
 }
 
+function gradientIndex(name) {
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) {
+    hash = (hash * 31 + name.charCodeAt(i)) >>> 0;
+  }
+  return hash % AVATAR_GRADIENT_COUNT;
+}
+
 function avatar(name, extraClass) {
-  return `<span class="avatar${extraClass ? " " + extraClass : ""}" title="${name}">${initials(name)}</span>`;
+  const gradClass = `avatar-${gradientIndex(name)}`;
+  return `<span class="avatar ${gradClass}${extraClass ? " " + extraClass : ""}" title="${name}">${initials(name)}</span>`;
 }
 
 function badge(category) {
@@ -57,8 +68,10 @@ function taskRow(task) {
 
 function renderItinerary() {
   const el = document.getElementById("itinerary");
-  el.innerHTML = itinerary.map(day => `
-    <div class="card">
+  el.innerHTML = itinerary.map(day => {
+    const dayNum = (day.day.match(/\d+/) || ["0"])[0].padStart(2, "0");
+    return `
+    <div class="card itin-card" data-daynum="${dayNum}">
       <div class="card-header"><h2>${day.day}</h2></div>
       <ul class="itinerary-list">
         ${day.items.map(item => `
@@ -70,7 +83,8 @@ function renderItinerary() {
             </span>
           </li>`).join("")}
       </ul>
-    </div>`).join("");
+    </div>`;
+  }).join("");
 }
 
 function renderAttendees() {
@@ -133,7 +147,7 @@ function renderTasksByPerson() {
             <h2>${a.name}</h2>
             <span class="card-meta">Hosting</span>
           </div>
-          <p class="empty-state">Nothing to bring — thanks for sorting the house! 🏡</p>
+          <p class="empty-state">Nothing to bring — thanks for sorting the house.</p>
         </div>`;
     }
     const p = taskProgress(personTasks);
@@ -154,7 +168,7 @@ function renderTasksByPerson() {
 function renderProgressWidget() {
   const p = taskProgress(tasks);
   document.getElementById("progress-count").textContent = `${p.done} / ${p.total}`;
-  document.getElementById("progress-fill").style.width = `${p.pct}%`;
+  document.getElementById("progress-fill").style.transform = `scaleX(${p.pct / 100})`;
 }
 
 function renderAll() {
