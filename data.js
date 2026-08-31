@@ -13,7 +13,7 @@ const attendees = [
   { name: "Usamah", nights: 2 },
   { name: "Omair",  nights: 2 },
   { name: "Yusi",   nights: 2 },
-  { name: "Omar",   nights: 1 },
+  { name: "Omar",   nights: 1, note: "Driving back Saturday night" },
   { name: "Haseeb", nights: 1, note: "Arriving Saturday" },
   { name: "Fahad",  nights: 1, note: "Driving back Saturday night" },
 ];
@@ -35,7 +35,7 @@ const itinerary = [
       { time: "Midday", title: "Activities", detail: "Cricket, footy/soccer, pool" },
       { time: "Lunch", title: "Group Lunch", detail: "Might just be Friday night's leftovers — Sulai & Haseeb to have a backup plan" },
       { time: "Afternoon", title: "Haseeb arrives", detail: "" },
-      { time: "Evening", title: "Fahad heads off", detail: "Driving back Saturday night" },
+      { time: "Evening", title: "Fahad & Omar head off", detail: "Both driving back Saturday night" },
       { time: "Dinner", title: "Group Dinner", detail: "Pizza" },
       { time: "Night", title: "Firepit & shisha", detail: "" },
     ],
@@ -119,7 +119,7 @@ const tasks = [
   { id: "sat-dinner", category: "meal", description: "Saturday dinner — Pizza order", assignedTo: ["Usamah", "Immi"], day: "Saturday" },
 
   // Sunday breakfast
-  { id: "sun-brekky", category: "meal", description: "Sunday breakfast", assignedTo: ["Omar", "Omair"], day: "Sunday" },
+  { id: "sun-brekky", category: "meal", description: "Sunday breakfast", assignedTo: ["Yusi", "Omair"], day: "Sunday" },
 
   // Salad
   { id: "salad-1", category: "meal", description: "Salad + Desserts for Chai", assignedTo: ["Kash", "Khurram"], day: "Any" },
